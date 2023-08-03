@@ -1,0 +1,97 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    margin: 0;
+    background-color: #DDDDDD;
+}
+
+header{
+    background-color: #06113C;
+    color: white;
+    padding: 2rem 1rem;
+}
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* MENU */ 
+nav{
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav li a:hover {
+    background-color: #555;
+}
+
+/* CONTENEDOR DE LOS ARTICULOS */
+
+.container{
+    width: 560px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: #EEEEEE;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,6);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+footer{
+    /*background-color: #9A9483;*/
+    background-color: #222;
+    padding: 3rem;
+    color: white;
+}
+
+
+footer section{
+    float: right;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+article.expansible {
+    max-height: none;
+}
