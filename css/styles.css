@@ -95,3 +95,14 @@ footer a:hover{
 article.expansible {
     max-height: none;
 }
+/*Style Cesar*/
+
+.Contenido {
+    text-align: center;
+}
+
+.video {
+    display: grid;
+    place-items: center;
+}
+
